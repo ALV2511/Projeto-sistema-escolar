@@ -7,7 +7,7 @@ import os
 
 app = FastAPI()
 
-NOME_ARQUIVO = "sistema_alunos.xlsx"
+NOME_ARQUIVO = "/tmp/sistema_alunos.xlsx"
 
 # Modelo de dados para o cadastro de alunos
 class Aluno(BaseModel):
